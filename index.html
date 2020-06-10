@@ -8,6 +8,47 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="result-container">
+            <span id="result"></span>
+        </div>
+
+        <div class="setings">
+            <div class="setings">
+                <label>Number of Character</label>
+                <input type="number" min="8" max="128" value="10">
+            </div>
+        </div>
+
+        <div class="row">
+            <label>Include uppercase </label> 
+            <input type="checkbox" id="uppercase" checked/>
+        </div>
+
+        <div class="row">
+            <label>Include lowercase </label> 
+            <input type="checkbox" id="lowercase" checked/>
+        </div>
+
+        <div class="row">
+            <label>Include numbers </label> 
+            <input type="checkbox" id="numbers" checked/>
+        </div>
+
+        <div class="setting">
+            <label>Include symbols </label> 
+            <input type="checkbox" id="symbol" checked/>
+        </div>
+
+        <button class="btn" id="generate">
+            Generate Password
+        </button>
+        <button class="btn" id="Copy">
+            Copy
+        </button>
+    </div>
     
 </body>
 </html>
