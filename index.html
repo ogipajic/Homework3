@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    <script src="./assets/script.js" defer></script>
+   
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
@@ -18,37 +18,41 @@
         <div class="setings">
             <div class="setings">
                 <label>Number of Character</label>
-                <input type="number" min="8" max="128" value="10">
+                <input type="number" id="length" min="8" max="128" value="10">
             </div>
         </div>
 
         <div class="row">
-            <label>Include uppercase </label> 
-            <input type="checkbox" id="uppercase" checked/>
+            <label for="uppercase">Include uppercase </label> 
+            <input type="checkbox" id="uppercase" checked />
         </div>
 
         <div class="row">
-            <label>Include lowercase </label> 
-            <input type="checkbox" id="lowercase" checked/>
+            <label for="lowercase">Include lowercase </label> 
+            <input type="checkbox" id="lowercase" checked />
         </div>
 
         <div class="row">
-            <label>Include numbers </label> 
-            <input type="checkbox" id="numbers" checked/>
+            <label for="numbers">Include numbers </label> 
+            <input type="checkbox" id="numbers" checked />
         </div>
 
-        <div class="setting">
-            <label>Include symbols </label> 
-            <input type="checkbox" id="symbol" checked/>
+        <div class="row">
+            <label for="symbols">Include symbols </label> 
+            <input type="checkbox" id="symbols" checked />
         </div>
 
         <button class="btn" id="generate">
             Generate Password
         </button>
-        <button class="btn" id="Copy">
+        <button class="btn" id="copy">
             Copy
         </button>
+        
     </div>
     
+
+
+    <script src="./assets/script.js"></script>
 </body>
 </html>

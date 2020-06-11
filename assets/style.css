@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://thewallpaper.co/wp-content/uploads/2016/09preview/landscape-desktop-wallpapers-fullscreen-beautiful-full-hd-smart-phone-background-wallpaper-for-mac-environment-2880x1920.jpg");
+    background-color: burlywood;
     margin: 0;
     color: black;
     min-height: 100vh;
@@ -27,7 +27,7 @@ body {
     padding: 1rem;
     border: 1px solid #333;
     height: 2rem;
-    width: 350px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
